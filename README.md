@@ -2,7 +2,7 @@
 
 曾经的网页设计课小组作业。纯手撸静态页面。
 
-可以在这里预览：[https://jyzhu.top/fingerspace](https://jyzhu.top/fingerspace) 。不过只有主页显示是正常的，其他页面受到博客网站主题的影响，效果有点不对劲。
+网站预览：[https://jyzhu.top/fingerspace](https://jyzhu.top/fingerspace) 。
 
 留在这里作为纪念。
 
