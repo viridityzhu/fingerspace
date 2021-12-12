@@ -1,0 +1,729 @@
+
+/*网页整体风格样式*/
+@font-face { 
+  font-family: Dengxian; 
+  src: url('images/dengxian.ttf'); 
+}
+ * {
+        margin: 0;
+        padding: 0;
+	 font-family: Dengxian,等线;
+    }
+  p{
+		font-family: 'PingFang SC Medium', Arial,等线;
+		color:rgba(66,68,69,1.00);
+		padding :3px;
+		}
+
+h1{
+			color: #FFFFFF;
+		}
+		body{
+			background-color:#E0E7EF;	
+			
+			text-decoration: none;
+		}
+		a{text-decoration:none}
+		a:link { color:white}
+		a:visited { color:white;}
+		a:hover {color:#d3d3d3;}
+	a:active {color:#7B7B7B;}
+
+/* 条子——面包屑、返回首页等用*/
+		.tiaozi{
+			text-align: center;	
+			display:block;
+			background-color:#65A8DF;
+			padding: 7px;
+			clear:both;
+			color: white;
+		}
+		p.left{
+			text-align:left;
+		color: white;
+			padding-left: 5px;
+		}
+.white{color: white}
+/* 一个居中块*/
+		.center{
+			text-align: center;}
+
+
+/*头部所占空间*/
+#hdspace{
+	height:80px;
+	visibility:hidden;
+	position: relative;
+}
+/*头部*/
+ #header{position: fixed;
+	 	z-index: +1;
+		height:80px;
+		width:100%;
+		color:white;
+		background:#102a44;
+		background-image: url("images/logo3.png");
+		background-position: 0% 0%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size:370px;
+		display:block;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		width: 100%;
+	}
+/*头部导航栏*/
+	#rightfloat{padding:28px 0px;
+		width: 200px;
+		 display: inline-block;
+	}
+	#rightfloat a{padding:28px 180px;
+		width: 200px;}
+
+/*头部导航栏的下拉栏*/
+	 .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 35px 16px 19px 16px;
+    text-decoration: none;
+}
+
+ .dropdown:hover .dropbtn {
+    background-color:#18395B;
+}
+
+.dropdown {float: right;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 112px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color:#E9E9E9}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+	
+/*评价网页字体颜色*/
+.black-center{color: black ;
+		text-align: center;
+}
+
+
+
+/* 导语*/
+		.daoyu{font-size: 120%;
+						color:#ffffff;}
+/*主页内容流部分*/
+.hugecontainer{
+		margin:0px auto;
+		padding: 0px 10px;
+		width:1090px;
+	}
+	#bigcontainer1{
+		display: inline-block;
+		width: 430px;
+		vertical-align: top;
+	}
+	#bigcontainer2{
+		display: inline-block;
+		width: 630px;
+		vertical-align: top;
+	}
+	.middle-content{
+		padding:0px 20px 15px;
+	}
+	.p-strong{
+		font-size:30px;
+		font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; 
+	}
+	p .shouye-block{
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}
+	.shouye-content{
+		text-align: center;
+		padding: 15px ;
+		margin:15px auto;
+		width: 60%;
+		font-size:25px;
+	}
+	.shouye-content2{
+		font-size: 17px;
+		margin:15px auto;
+	}
+	#middlecontainer1{
+		margin:15px auto;
+		width: 600px;
+		background-color: #FFFFFF;
+		position:relative;
+	}
+	#pic1{
+		width: 100%;
+	}
+	#middlecontainer2{
+		margin:15px ;
+		width: 400px;
+		background-color: #FFFFFF;
+		position:relative;
+		float: left;
+	}
+	#pic2{
+		width:400px;
+	}
+	#middlecontainer3{
+		margin:15px ;
+		width: 280px;
+		background-color: #FFFFFF;
+		position:relative;
+		float: left;
+		display: inline-block;
+	}
+	#pic3{
+		width:280px;
+	}
+	#middlecontainer4{
+		margin:15px ;
+		width: 280px;
+		background-color: #FFFFFF;
+		position:relative;
+		float: left;
+		display: inline-block;
+	}
+	#pic4{
+		width:280px;
+	}
+	#middlecontainer5{
+		margin:15px ;
+		width: 350px;
+		background-color: #FFFFFF;
+		position:relative;
+		float: right;
+		
+	}
+	#pic5{
+		width: 350px;
+	}
+	#middlecontainer6{
+		margin:15px ;
+		width: 600px;
+		background-color: #FFFFFF;
+		position:relative;
+		float:left;
+		
+	}
+	#pic6{
+		width: 600px;
+	}
+	#middlecontainer7{
+		margin:15px ;
+		width: 400px;
+		background-color: #FFFFFF;
+		position:relative;
+		float: left;
+	}
+	#pic7{
+		width:400px;
+	}
+	#middlecontainer8{
+		margin:15px ;
+		width: 280px;
+		background-color: #FFFFFF;
+		position:relative;
+		float: left;
+	}
+	#pic8{
+		width:100%;
+	}
+	#middlecontainer9{
+		margin:15px ;
+		width: 280px;
+		background-color: #FFFFFF;
+		position:relative;
+		float: left;
+		display: inline-block;
+	}
+	#pic9{
+		width:100%;
+	}
+	#middlecontainer10{
+		margin:15px ;
+		width: 400px;
+		background-color: #FFFFFF;
+		position:relative;
+		float: left;
+		display: inline-block;
+	}
+	#pic10{
+		width:100%;
+	}
+	.hdspace2{
+		height:50px;
+		visibility:hidden;
+		position: relative;
+	}
+	.index-h2{
+		padding:30px 50px;
+		color: white;
+	}
+/*走进太阳系二级导航及网站框架导航*/
+	#index-links1{
+		background-image: url(images/footer_bg.jpg);
+		padding:20px 5% ;
+		background-repeat: no-repeat;
+		background-size: 100% ;
+		height:300px;
+		color: white;
+	}
+	#index-links2{
+		background-image: url(images/微信图片_201805251750445.png);
+		padding:auto;
+		background-repeat: no-repeat;
+		background-size: 100% ;
+		min-height: 370px;
+	}
+	.index-links-content{
+		display: inline-block;
+		color: white;
+		margin:20px auto 0;
+		width: 23%;
+		position:relative;
+		float: left;
+		left: 80px;
+		text-align: center;
+	}
+	.index-links-content1{
+		color: white;
+		font-size: 20px;
+	}
+	.index-links-content2{
+		color: white;
+		margin-left: 1em;
+	}
+	#index-links-container{
+		margin: auto;
+		min-height: 300px;
+		
+	}
+	.index-h22{
+		padding:30px 50px 0;
+		color: white;
+	}
+/*主页中国空间站导航*/
+	#css{
+		background-color: white;
+		margin: 0px;
+		min-height: 630px;
+		padding:80px 30px 30px 30px;
+		text-align: center;
+	}
+	#css1{
+		width:1150px;
+		margin:40px auto 0px;
+		background-color:#2A2B2D;
+		height: 450px;
+	}
+	#css-img{
+		display: inline-block;
+		float:right;
+		height: 450px;
+		
+		
+	}
+	#css-content{
+		text-align: left;
+		float: left;
+		color: white;
+		width:250px;
+		margin:30px ;
+		
+	}
+	
+	.css-contant2{
+		color: white;
+	}
+	
+	.css-contant1-1{
+		color: white;
+		font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+		margin:10px 0;
+		font-size: 25px;
+		
+	}
+/* 部分网页的大图部分*/
+/*主页*/
+		#star-greatwall{
+			background-image: url("images/GreatWallMilkyWay_Yu_16861.11.jpg");
+			background-repeat: no-repeat;
+			background-size: 100% ;
+			color:#fff;
+			padding:30% 50%  10% 5%;
+		}
+	/* 星系与宇宙*/
+		#star{
+			background-image: url(images/hs-2007-19-a-1680x1050_wallpaper1.0.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			
+			color:#fff;
+			padding:30% 50%  5% 5%;
+		
+		}
+	/* 天象游览*/
+	#startwo{
+			background-image: url('images/ISS.jpg');
+			background-repeat: no-repeat;
+			background-size: 100% ;
+			background-attachment: fixed;
+			color:#fff;
+			padding:30% 50%  5% 5%;
+		
+		}
+		/* 地球*/
+#starthree{
+			background-image: url('images/earthp.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+	
+			padding:30% 50%  5% 5%;
+			color:#fff;
+		
+	
+}
+#starfour{
+	background-image: url("images/sun1.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			padding:43% 50%  5% 5%;
+			
+			color:#fff;
+	background-attachment: fixed;
+}
+		/* 太阳系*/	
+#starss{
+		background-image: url("images/11763_192016main_100907_1600.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+	
+			padding:40% 5%  5% 50%;
+			color:#fff;
+	
+}
+		/* 银河系*/
+#starfive{
+			background-image: url(images/1920px-ESO_-_The_Milky_Way_panorama_.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			
+			margin :0 ;
+			padding:26% 50% 5% 8%;
+			color: #FFFFFF;
+			}
+
+		/* 月球*/
+#staryue{
+			background-image: url('images/月球.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+	
+			padding:43% 50%  5% 5%;
+			color:#fff;
+background-attachment: fixed;
+}
+
+/* 正文文本块*/
+		.aaa{
+			background-color:#FFFFFF;
+			padding: 10px 10px	;
+			margin: 0  150px;
+			
+			border-style: solid;
+			border-width: 2px;
+			border-color:#E3E3E3;
+			
+		}
+/* 正文文本样式*/
+p.ccc{
+		font-family: 等线;
+		text-align:left;
+		color: white;
+		
+		}
+
+/*（简易）视差滚动块*/
+	/* 星系与宇宙*/
+		.bbb{
+			background-image: url("images/800px-Stellar_spire_eagle_nebula4.1.jpg");
+			background-repeat: no-repeat;
+			background-size: 100% ;
+			background-attachment: fixed;
+			margin:0 ;
+			padding:10% 50%  10% 5%;
+			color: #FFFFFF;
+		
+		}
+		/*银河系*/
+		.ddd{
+			background-image: url("images/Artist's_impression_of_the_Milky_Way_(updated_-_annotated)2.0.jpg");
+			background-repeat: no-repeat;
+			background-size: 100% ;
+			background-attachment: fixed;
+			margin:0 ;
+			padding:10% 50%  10% 5%;
+			color: #FFFFFF;
+		
+		}
+
+
+		
+/*图文块——天文学史页面用*/
+		/*图片*/
+.inimg{
+	  width:100%;
+	  height:100%;
+	margin:0;
+}
+/*文本*/
+.desc
+  {
+	  margin:0;
+ padding:6px ;
+  font-weight:normal;
+	 background-color: white;
+  font-size:15px;
+	background-color: #fff;
+  }
+	/*左右大块*/
+.leftblock{
+	width:50%;
+	display: inline-block;
+	
+}
+.rightblock{
+	width:50%;
+	float:right;
+	display:inline-block;
+}
+	/*五个小块*/
+.img_1
+{float:left;
+margin-top: 20px;
+width:340px;
+	margin-left: 15px;
+	background-color: white;
+}
+.img_2{
+	float:right;
+	width:600px;
+	margin-right: 15px;
+	margin-top:200px;
+	background-color: white;
+
+}
+.img_3{
+	width:500px;
+	float:left;
+	margin-top: 80px;
+	margin-left: 15px;
+	background-color: white;
+
+}
+.img_4{
+	margin-right: 15px;
+	float:right;
+	margin-top:200px;
+	width:380px;
+	background-color: white;
+
+}
+
+.img_5
+  {
+	  float:left;
+	margin-left: 15px;
+	  width:380px;
+	  margin-top:80px;
+	  margin-bottom: 30px;
+	  background-color: white;
+
+  }
+
+
+
+
+
+
+
+
+/*十件事——太阳、月球网页用*/
+.tenthings{
+	
+	padding:40px;
+	margin-bottom:40px;
+	color:rgba(66,68,69,1.00);
+
+	
+}
+		/*十件事标题*/
+.tttitle{
+	width:100%;
+	padding-bottom: 40px;
+	font-size:180%;
+	
+}
+		/*十件事文本*/
+.tenthings p{
+	text-align:center;
+	font-size:120%;
+}
+		/*十件事块*/
+.onething_1,.onething_2,.onething_3,.onething_4,.onething_5,.onething_6,.onething_7,.onething_8,.onething_9{
+	width:33%;
+	height:200px;
+	float:left;
+	
+	}
+.onething_1{
+	border-right: 2px solid rgba(198,222,243,1.00) ;
+	border-bottom: 2px solid rgba(198,222,243,1.00) ;
+}
+.onething_3{
+	border-left: 2px solid rgba(198,222,243,1.00) ;
+	border-bottom: 2px solid rgba(198,222,243,1.00) ;
+}
+.onething_5{
+	border: 2px solid rgba(198,222,243,1.00) ;
+}
+.onething_6{
+	height:204px;
+}
+.onething_7{
+	border-right: 2px solid rgba(198,222,243,1.00) ;
+	border-top: 2px solid rgba(198,222,243,1.00) ;
+}
+.onething_9{
+border-left: 2px solid rgba(198,222,243,1.00) ;
+border-top: 2px solid rgba(198,222,243,1.00) ;}
+.thing{
+	font-size:140%;
+}
+
+
+
+/*天文学史h1*/
+.hist{
+	color:rgba(66,68,69,1.00);
+	text-align: center;
+}
+
+/*星球导航——首页、太阳系、太阳、月球网页用*/
+.aplanet{
+	display: inline-block;
+	width:30%;
+	height:30%;
+	text-align: center;
+	float:left;
+	padding:20px;
+}
+.more{
+	width:100%;
+	padding-top: 30px;
+}
+.inter{
+	width:80%;
+	padding-top:60px;
+	padding-bottom: 10px;
+	padding-left:100px;
+	padding-right: 100px;
+	
+}
+
+.box{
+	width:100%;
+	float:left;
+	margin-left: auto;
+}
+.img img{
+	width:100%;
+	background-color: white;
+}
+.img{
+	background-color: white;
+}
+.inbox1{
+	padding: 5% 13%;
+}
+.inbox2{
+	padding: 6% 10%;
+}
+.inbox3{
+	padding: 10% 10%;
+}
+.inbox4{
+	padding: 10% 14%;
+}
+.member{
+	width:28%;
+	float: left;
+	margin: 20px;
+}
+.member a:link{
+	color: #000;
+}
+.member a:hover{
+	color:slategray;
+}
+
+	
+
+.member img{
+	width:100%;
+	height:430px;
+}
+.clear{
+	clear: both;
+}
+.introduction img{
+	width:60%;
+}
+#body-liling{
+background:url(images/bg2.jpg);
+}
+
+#div-ll{
+width:65%; 
+margin:15px auto;
+background:aliceblue;
+padding:15px;
+}
+
+.h1-ll{text-align:center;
+font-family:隶书;
+font-size:32px;
+background:palegreen;
+border-bottom:1px ;
+solid:black ;
+padding-bottom:10px;
+}
+
+.p-ll{
+text-indent:2em;
+font-size:14px;
+line-height:1.5em;
+}
+.ol-ll {
+list-style-type:decimal;
+}
