@@ -13,3 +13,5 @@
 ![image](https://user-images.githubusercontent.com/39082096/145727378-54c42c0c-1cf1-424f-a5c5-f94b67d01d6c.png)
 
 ![image](https://user-images.githubusercontent.com/39082096/145727383-88c35f34-09a1-49da-a73b-15c460499826.png)
+
+笑死，当初的个人介绍实在是太黑历史了，已经删掉了，罪过罪过。
